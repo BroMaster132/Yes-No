@@ -12,7 +12,6 @@ $(document).ready(function(){
     function btnTeleport() {
         let random = getRandomInt(-600,600)
         let randomSec = getRandomInt(-600,600)
-        console.log(random);
         btnNo.css({
             'left': random + 'px',
             'right': random  + 'px',
