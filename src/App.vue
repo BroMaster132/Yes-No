@@ -54,7 +54,7 @@ $(document).ready(function(){
 }
 @font-face {
   font-family: beer ;
-  src: url(../src/assets/Sheets/beer\ money.ttf)
+  src: url(src/assets/Sheets/lovely.ttf)
 } 
 
 .middle h1 {
