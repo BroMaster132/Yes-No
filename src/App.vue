@@ -39,6 +39,7 @@ $(document).ready(function(){
     <br>
     <h1>Will you marry me?</h1>
     <img id="cat" src="../src/assets/kawai.gif"> 
+    <img id="cat" src="../src/assets/cryingCat.gif"> 
     <div class="buttons">
         <button id="btnYes"> Yes</button>
         <button id="btnNo" style="margin-left: 90px ;"> No</button>
@@ -54,7 +55,6 @@ $(document).ready(function(){
 }
 @font-face {
   font-family: beer ;
-
   src: url(../src/assets/beer\ money.ttf)
 
 } 
