@@ -1,6 +1,6 @@
 <script setup>
 $(document).ready(function(){ 
-    const cryingCat = '../src/assets/cryingCat.gif'
+    const cryingCat = 'https://i.pinimg.com/originals/18/1c/06/181c065b666891b204e8d7f2ee4e7111.gif'
     const btnNo = $(`#btnNo`)
     const btnYes = $(`#btnYes`)
     const cat = $(`#cat`)
@@ -28,9 +28,10 @@ $(document).ready(function(){
     btnNo.click(() =>{
         btnTeleport()
     })
-
+    
     btnYes.click(() => {
-        cat.attr('src','../assets/kawai.gif')
+        cat.attr('src','https://media3.giphy.com/avatars/nekousa_1110/Wm3uOmYzgnNS.gif')
+        btnNo.css('display', 'none')
     })
 })
 </script>
@@ -39,7 +40,7 @@ $(document).ready(function(){
   <div class="middle">
     <br>
     <h1>Will you marry me?</h1>
-    <img id="cat" src="../assets/kawai.gif"> 
+    <img id="cat" src="https://i.pinimg.com/originals/15/0f/78/150f78d18fd597611f77b4ae7d2f1f58.gif"> 
     <div class="buttons">
         <button id="btnYes"> Yes</button>
         <button id="btnNo" style="margin-left: 90px ;"> No</button>
@@ -53,11 +54,8 @@ $(document).ready(function(){
   left: 40%;
   height: 500px;
 }
-@font-face {
-  font-family: beer ;
-  src: url(./src/assets/beer\ money.ttf)
 
-} 
+
 #cry {
   display: none;
 }
